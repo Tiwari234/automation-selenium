@@ -17,7 +17,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
@@ -40,7 +39,7 @@ public Properties p;
 	public void setup(String os, String br) throws IOException
 	{
 		//Loading config.properties file
-		FileReader file=new FileReader("./src//test//resources//config.properties");
+		FileReader file=new FileReader("./src/test/resources/config.properties");
 		p=new Properties();
 		p.load(file);
 				
@@ -111,7 +110,7 @@ public Properties p;
 	
 	public String randomeString()
 	{
-		String generatedstring=RandomStringUtils.randomAlphabetic(5);
+		String generatedstring=RandomStringUtils.randomAlphabetic(10);
 		return generatedstring;
 	}
 	

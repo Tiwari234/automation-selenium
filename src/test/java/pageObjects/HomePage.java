@@ -21,6 +21,8 @@ WebElement lnkRegister;
 @FindBy(linkText = "Login")   // Login link added in step5
 WebElement linkLogin;
 
+@FindBy(xpath=("(//a[normalize-space()='Edit Account'])[1]"))
+WebElement btnEdit;
 
 public void clickMyAccount()
 {
@@ -37,4 +39,8 @@ public void clickLogin()
 	linkLogin.click();
 }
 
+public void clickEdit() {
+	//sol1 
+	btnEdit.click();
+}
 }
