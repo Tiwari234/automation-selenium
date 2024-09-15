@@ -1,8 +1,7 @@
 package testCases;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
+import org.testng.AssertJUnit;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
@@ -48,12 +47,12 @@ public class TC003_LoginDDT extends BaseClass {
 			if(targetPage==true)
 			{			
 				macc.clickLogout();
-				Assert.assertTrue(true);
+				AssertJUnit.assertTrue(true);
 				
 			}
 			else
 			{
-				Assert.assertTrue(false);
+				AssertJUnit.assertTrue(false);
 			}
 		}
 		
@@ -62,18 +61,18 @@ public class TC003_LoginDDT extends BaseClass {
 			if(targetPage==true)
 			{
 				macc.clickLogout();
-				Assert.assertTrue(false);
+				AssertJUnit.assertTrue(false);
 				
 			}
 			else
 			{
-				Assert.assertTrue(true);
+				AssertJUnit.assertTrue(true);
 			}
 		}
 		
 		}catch(Exception e)
 		{
-			Assert.fail();
+			AssertJUnit.fail();
 		}
 		Thread.sleep(3000);
 		logger.info("***** Finished TC_003_LoginDDT ******");

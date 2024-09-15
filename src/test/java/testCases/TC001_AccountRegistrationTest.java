@@ -1,8 +1,7 @@
 package testCases;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
+import org.testng.AssertJUnit;
 import pageObjects.AccountRegistrationPage;
 import pageObjects.HomePage;
 import testBase.BaseClass;
@@ -42,14 +41,14 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		logger.info("Validating expected message..");
 		
 		String confmsg = regpage.getConfirmationMsg();
-		Assert.assertEquals(confmsg, "Your Account Has Been Created!", "Confirmation message mismatch");
+		AssertJUnit.assertEquals(confmsg, "Your Account Has Been Created!", "Confirmation message mismatch");
 
 		logger.info("Test passed");
 		} 
 		catch (Exception e)
 		{
 			logger.error("Test failed: " + e.getMessage());
-			Assert.fail("Test failed: " + e.getMessage());
+			AssertJUnit.fail("Test failed: " + e.getMessage());
 		} 
 		finally 
 		{
