@@ -1,8 +1,7 @@
 package testCases;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
+import org.testng.AssertJUnit;
 import pageObjects.EditAcount;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
@@ -48,11 +47,11 @@ public class TC_005edit extends BaseClass {
 	editaccountdetails.clickButton();
 	
 	String confmsg = editaccountdetails.getConfirmationMsg();
-	Assert.assertEquals(confmsg, "Success: Your account has been successfully updated.", "Confirmation message mismatch");
+	AssertJUnit.assertEquals(confmsg, "Success: Your account has been successfully updated.", "Confirmation message mismatch");
 	
 	
 		}catch(Exception e){
-			Assert.fail("Test failed: " + e.getMessage());
+			AssertJUnit.fail("Test failed: " + e.getMessage());
 		}
 		
 		

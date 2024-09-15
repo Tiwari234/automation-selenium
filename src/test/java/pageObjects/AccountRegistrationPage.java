@@ -73,7 +73,7 @@ public void setConfirmPassword(String pwd) {
 public void setPrivacyPolicy() {
 	chkdPolicy.click();
 
-}
+};
 
 public void clickContinue() {
 	//sol1 

@@ -1,8 +1,7 @@
 package testCases;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
+import org.testng.AssertJUnit;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
@@ -32,11 +31,11 @@ public class TC002_LoginTest extends BaseClass{
 		MyAccountPage macc=new MyAccountPage(driver);
 		boolean targetPage=macc.isMyAccountPageExists();
 		
-		Assert.assertTrue(targetPage);//Assert.assertEquals(targetPage, true,"Login failed");
+		AssertJUnit.assertTrue(targetPage);//Assert.assertEquals(targetPage, true,"Login failed");
 		}
 		catch(Exception e)
 		{
-			Assert.fail();
+			AssertJUnit.fail();
 		}
 		logger.info("****** Finished TC_002_LoginTest *****");
 	}
