@@ -13,13 +13,14 @@
     <parameter name="browser" value="chrome"/>
      
     <classes>
-    
-		
-     <class name="testCases.TC001_AccountRegistrationTest"/> 
+  <class name="testCases.TC001_AccountRegistrationTest"/> 
       <class name="testCases.TC002_LoginTest"/> 
       <class name="testCases.TC_005edit"/>
 	
       <class name="testCases.TC006_AddtocartTest"/>
+    
+		  <class name="testCases.TC007_component"/>
+     
        
         
       <!--<class name="testCases.TC003_LoginDDT"/>-->
