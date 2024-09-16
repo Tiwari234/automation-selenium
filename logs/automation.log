@@ -1,0 +1,72 @@
+2024-09-16 14:16:02 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 14:16:07 INFO  TC001_AccountRegistrationTest:14 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-09-16 14:16:07 INFO  TC001_AccountRegistrationTest:20 - Clicked on MyAccount Link.. 
+2024-09-16 14:16:07 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link.. 
+2024-09-16 14:16:07 INFO  TC001_AccountRegistrationTest:27 - Providing customer details...
+2024-09-16 14:16:08 INFO  TC001_AccountRegistrationTest:41 - Validating expected message..
+2024-09-16 14:16:08 INFO  TC001_AccountRegistrationTest:55 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-16 14:16:11 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2024-09-16 14:16:13 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
+2024-09-16 14:17:26 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 14:18:25 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 14:19:14 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 14:19:48 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 14:19:54 INFO  TC001_AccountRegistrationTest:14 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-09-16 14:19:54 INFO  TC001_AccountRegistrationTest:20 - Clicked on MyAccount Link.. 
+2024-09-16 14:19:56 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link.. 
+2024-09-16 14:19:56 INFO  TC001_AccountRegistrationTest:27 - Providing customer details...
+2024-09-16 14:19:57 INFO  TC001_AccountRegistrationTest:41 - Validating expected message..
+2024-09-16 14:19:57 INFO  TC001_AccountRegistrationTest:55 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-16 14:20:03 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2024-09-16 14:20:05 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
+2024-09-16 14:26:42 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 14:29:55 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 14:31:29 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 14:34:10 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 14:43:36 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 14:45:03 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 14:47:08 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 14:48:10 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 14:58:42 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 15:04:36 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 15:16:05 INFO  Utils:112 - [TestNG] Running:
+  /Users/Rishabh/Desktop/NewTestProject/OpencartV121/master.xml
+
+2024-09-16 15:16:09 INFO  TC001_AccountRegistrationTest:14 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-09-16 15:16:09 INFO  TC001_AccountRegistrationTest:20 - Clicked on MyAccount Link.. 
+2024-09-16 15:16:10 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link.. 
+2024-09-16 15:16:10 INFO  TC001_AccountRegistrationTest:27 - Providing customer details...
+2024-09-16 15:16:11 INFO  TC001_AccountRegistrationTest:41 - Validating expected message..
+2024-09-16 15:16:11 INFO  TC001_AccountRegistrationTest:55 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-16 15:16:14 INFO  TC002_LoginTest:15 - ****** Startign TC_002_LoginTest *****
+2024-09-16 15:16:15 INFO  TC002_LoginTest:40 - ****** Finished TC_002_LoginTest *****
